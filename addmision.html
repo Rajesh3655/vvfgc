@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="./department.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="./addmision.css">
+    <link rel="stylesheet" href="./login.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <!-- form is a symantic tag -->
+    <header class="head">
+        VIDYAVAHINI FIRST GRADE COLLEGE
+    </header>
+    <nav class="nav">
+        <div class="logo"><img src="https://th.bing.com/th/id/OIP.G71R4icBe4nkSFMZDvGcggAAAA?w=210&h=141&c=7&r=0&o=5&dpr=1.3&pid=1.7" alt="logo" height="75px" width="150px"></div>
+        <div class="page">
+            <a href="Form.html">HOME</a>
+            <a href="department.html">DEPARTMENT</a>
+            <a href="">PLACEMENT</a>
+            <div class="click"><a href="./addmision.html">ADDMISSIONS</a></div>
+
+        </div>
+        <div class="contact">
+            <p>CONTACT</p>
+        </div>
+        <section class="drop">
+            <p>vvfgc@gmail.com</p>
+            <p>+91 8217354109</p>
+        </section>
+        <div class="media">
+            <div class="tw"><a href="https://api.whatsapp.com/send?phone=%2B917022901243&data_filter_required=ARBpxHiZoUcljZlnMIdIVDTY5OfGwH9Yy6R02D7FrUSeDSx8FLp7riacYVFV1N7G3okClUW2xR8Oa0qymMrDlwOllyuQAZPXgcwn6wRv9WmIse9mX_FMPhTqgihSUFebiceKaZ4BaiGqRekt2m3oU-uAoQ&source=FB_Page&app=facebook&entry_point=page_cta&fbclid=IwAR3IH7L1O94CpCvc4Qb_I6lBdbaOGSxwf1E995cIzYQXNacOPLxbvMz2eE8"><i class="fa-brands fa-whatsapp"></i></a></div>
+            <div class="in"><a href="https://www.instagram.com/vvfgcofficial/?igshid=MzRlODBiNWFlZA%3D%3D"><i class="fa-brands fa-instagram"></i></a></div>
+            <div class="fb"><a href="https://www.facebook.com/vvfgcofficial/"><i class="fa-brands fa-facebook"></i></a></div>
+            <div class="call"><a href="https://www.youtube.com/@VVFGC-Flash/channels"><i class="fa-brands fa-youtube"></i></a></div>
+        </div>
+    </nav>
+    <form >
+        <fieldset class="fst">
+            <legend class="lgd">ADDMISION FORM</legend>
+            <center>
+            <table class="table">
+            <tr>
+                <td><label for="name">STUDENT NAME:</label>
+                </td>
+                <td> <input type="text" id="name" name="name"></td>
+            </tr>
+            <tr>
+                <td><label for="dob">DOB:</label></td>
+                <td><input type="date" id="dob" name="dob"><br></td>
+            </tr>
+            <tr>
+                <td><label for="email">EMAIL:</label></td>
+                <td><input type="email" id="email" name="email"></td>
+            </tr>
+            <tr>
+                <td><label for="contact">CONTACT NO:</label></td>
+                <td><input type="tel" id="contact" name="contact"></td>
+            </tr>
+            <tr>
+                <td><label for="gender">GENDER:</label></td>
+                <td><input type="radio" id="gender" name="gender" value="MALE">MALE
+                    <input type="radio" id="gender" name="gender" value="FEMALE">FEMALE
+                    <input type="radio" id="gender" name="gender" value="TRANSGENDER">TRANSGENDER</td>
+            </tr>
+            <tr>
+                <td><label for="qu">QUALIFICATION:</label></td>
+                <td><select name="qu" id="qu">
+                    <optgroup label="PRE-UNIVERSITY">
+                         <option value="PCMC">PCMC</option>
+                         <option value="PCMB">PCMB</option>
+                    </optgroup>
+                    <optgroup label="UNDER-GRADUATION">
+                     <option value="BCA">BCA</option>
+                     <option value="BSC">BSC</option>                
+                    </optgroup>
+                 </select></td>
+            </tr>
+            <tr>
+                <td><label for="add">ADDRESS:</label><br></td>
+                <td> <textarea name="add" id="add" cols="30" rows="10"></textarea></td>
+            </tr>
+            <tr>
+                <td> <label for="c">MODE OF COLLAGE:</label></td>
+                <td><input type="checkbox" id="c" name="c" value="ns">NORMAL SHEDULE <br>
+                    <input type="checkbox"id="c" name="c" value="c">CORRESPONDANCE <br>
+                    <input type="checkbox" id="c" name="c" value="ec">EVENING COLLAGE</td>
+            </tr>
+            
+            
+        </table><br>
+        <hr>
+    
+            <!-- 1.date 2.date-time 3.date-time local -->
+            <!-- VALUE ATTRIBUTE IS USED TO FORM ELEMENT WHERE EVER WE HAVE CLICK EVENTS -->
+            <button class="button-85" id="sbtn" role="button">SUBMIT</button>
+            <button class="button-85" id="sbtn" role="button">RESET</button>
+        </center>
+            
+        </fieldset>
+    </form>
+</body>
+</html>

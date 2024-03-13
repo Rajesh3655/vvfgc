@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+  canvas {
+    border: 1px solid black;
+  }
+</style>
+</head>
+<body>
+
+<canvas id="myCanvas" width="500" height="500"></canvas>
+
+<script>
+  const canvas = document.getElementById('myCanvas');
+  const ctx = canvas.getContext('2d');
+
+  function drawRectangle(color, scale) {
+    ctx.clearRect(0, 0, canvas.width, canvas.height);
+    ctx.fillStyle = color;
+    ctx.fillRect(10, 10, 100 * scale, 50 * scale);
+  }
+
+  canvas.addEventListener('mouseover', () => {
+    drawRectangle('red', 2);
+  });
+
+  canvas.addEventListener('mouseout', () => {
+    drawRectangle('blue', 1);
+  });
+
+  // Initial drawing
+  drawRectangle('blue', 1);
+</script>
+
+</body>
+</html>

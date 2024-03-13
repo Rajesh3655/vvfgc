@@ -1,0 +1,74 @@
+.butt{
+    border-radius: 10px;
+    height: 30px;
+    width: 112px;
+    color: aliceblue;
+    background-color: orangered;
+    font-size: large;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    border: 2px solid orangered;
+}
+.butt:hover{
+    /* display: block; */
+    background-color:blue;
+    /* font-size: xx-large; */
+    height: 30PX;
+    width: 112px;
+    border-radius: 10px;
+    color: white;
+}
+.al{
+    margin-top: 40px;
+    display: flex;
+    text-align: center;
+    justify-content: space-evenly;
+}
+.all{
+    margin-top: 56px;
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;
+}
+.alll{
+    margin-top: 56px;
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;
+}
+.click a{
+    background-color: rgb(14, 15, 15);
+    height: fit-content;
+    width: fit-content;
+    border: 2px solid gray; 
+    
+}
+.dep .card{
+    justify-items: center;
+    align-items: center;
+    /* background-color: aquamarine; */
+}
+.dep .card .one{
+    border: 2px solid gray;
+    display: block;
+    width: 400px;
+    /* size: small; */
+    padding: 20px;
+   
+}
+.dep .card .one P{
+    text-align: center;
+    font-size: x-large;
+    text-decoration: solid black;
+    box-shadow:2px 4px 5px orangered;
+    border: 2px solid gray;
+
+}
+.co{
+    font-size: xx-large;
+    font-family: 'Times New Roman', Times, serif;
+    color: blue;
+    text-decoration: overline;
+    text-shadow: 7px 3px 5px gray;
+    padding-top: 15px;
+    /* margin-left: 630px; */
+}
